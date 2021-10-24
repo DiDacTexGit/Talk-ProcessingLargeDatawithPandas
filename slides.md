@@ -32,6 +32,7 @@ Well this talk is for you.
 
 ## Brief History (small subset) of Large Data
 
+
 As soon as there was paper and pen, 
 <br/> there has been large data sets.
 
@@ -43,9 +44,11 @@ Unfortunately, he had to wait until Tycho Brahe died before he could get a hold 
 <br/>
 
 
+
 #### Some even thought he played a hand in Brahe's death
 
 -----------------------------------------------------------------------
+
 ## Brief  History (small subset) of Large Data cont.
 
 And in 1676 Ole Roemer (Rømer) armed with only paper, pencil, telescope and 
@@ -58,6 +61,7 @@ His prediction for Io was off by a few minutes.)
 ![telescope](./images/telescope.jpeg)
 ![watch](./images/watch.jpg)
 ![pen](./images/pen.jpeg)
+
 
  <br/>
  
@@ -111,7 +115,9 @@ Pandas is fast, powerful and flexible.
 It enables you to quickly parse data. 
 But, it is mainly designed to handle ~<100mb.  
 
+
 <br/>
+
 
 There are other tools like Spark to handle LARGE data sets 
 (100 gigabytes to terabytes), but...
@@ -142,6 +148,7 @@ reduce the memory size of your DataFrame.
 
 For numbers, try Int8, floats16 etc, but when you have strings that ***repeat***
 SWITCH to
+
 ### categories
 
 <br/>
@@ -157,7 +164,9 @@ string_list = ['Hello', 'World', 'More Strings', 'Evelyn','Boettcher']
 Many times string data will be repetitive, like it will only contain days of week.
 
 ```Python
-val_days = ['Monday', 'Tuesday','Monday', 'Wednesday','Monday', 'Thursday', 'Friday', 'Saturday','Monday','Monday', 'Sunday']
+val_days = ['Monday', 'Tuesday', 'Monday', 'Wednesday', 'Monday', 
+            'Thursday', 'Friday', 'Saturday', 'Monday', 'Monday', 
+            'Sunday']
 ```
 
 -------------------------------------------------------------------
@@ -236,6 +245,7 @@ df['column name'].astype('category')
 
 Converting to categories is not always helpful.
 <br/>
+
 The following examples will show the power and pitfalls of categories
 
 
@@ -431,6 +441,9 @@ String: Random category--->  0.9068MB
 Categories only made the DF memory use worse
 
 
+
+
+.
 ```
 
 ----------
@@ -461,7 +474,7 @@ Top 10 rows of data
 3   Thursday  World      Fairfield   Thursday   World      Fairfield          vwjs
 4     Friday  Hello  Huber Heights     Friday   Hello  Huber Heights          xiiz
 5   Saturday  World      Riverdale   Saturday   World      Riverdale          owon
-6     Sunday  Hello    https://github.com/DiDacTexGit/Talk-ProcessingLargeDatawithPandas     Dayton     Sunday   Hello         Dayton          jihl
+6     Sunday  Hello         Dayton     Sunday   Hello         Dayton          jihl
 7     Monday  World    Beavercreek     Monday   World    Beavercreek          xwon
 8    Tuesday  Hello        Oakwood    Tuesday   Hello        Oakwood          zchj
 9  Wednesday  World      Fairfield  Wednesday   World      Fairfield          hnjt
@@ -595,6 +608,7 @@ Top 4 rows of data
 ```
 
 -------------
+
 ## Read in...
  `My_Awesome_cat.csv` (Files size: ~486MB)
 
@@ -614,6 +628,7 @@ python read_awesome.py -c 1 -r 0 -d Sunday
 ```
 
 ---------------------------------
+
 #### WOW
 The data in memory is **LESS** than the file size, by almost 90%!
 
@@ -653,6 +668,14 @@ __________________________________________________
 * We reduced the size of data in memory to something LESS than the file size!
 * Categories can be **Helpful** or **Hurtful** when we are dealing with large data.
    * Please use Pandas with care
+
+<br>
+
+### Prayer to PyLint
+
+my code failed again <br>
+CI in the cloud please take <br>
+pylint be my friend
 
 
 -------
