@@ -305,8 +305,10 @@ Categories only made the DF memory use worse
 
 
 
-.
+All Done
+
 ```
+
 
 
 ---------
@@ -396,6 +398,7 @@ Float category--->  51.4442MB
 Categories only made the DF memory use worse
 
 
+All Done
 ```
 
 -------------------------------------------------------------------
