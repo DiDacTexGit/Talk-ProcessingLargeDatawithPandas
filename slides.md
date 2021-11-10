@@ -678,7 +678,7 @@ __________________________________________________
 
 ### Prayer to PyLint
 
-my code failed again <br>
+Code, please don't fail again <br>
 CI in the cloud please take <br>
 pylint be my friend
 
