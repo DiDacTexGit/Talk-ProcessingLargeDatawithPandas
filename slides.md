@@ -47,7 +47,7 @@ Unfortunately, he had to wait until Tycho Brahe died before he could get a hold 
 
 
 
-#### Some even thought he played a hand in Brahe's death
+#### Many thought he played a hand in Brahe's death
 
 -----------------------------------------------------------------------
 
@@ -85,13 +85,16 @@ by hand to ensure there was not a mistake in the math or observations.
 
 ### Roemer's Conclusion
 
-My work is correct, the timing is off because light moves at a finite speed.  
+My work is correct, <br/>
+the timing is off because light moves at a finite speed.  
+
 
 -----------------------------------------------------------------------
 
 ## Brief of History (small subset) of Large Data cont..
 
 We have it a bit easier, <br/> we only having to deal with:
+<br/>
 
 * NaNs: Not A Number
 * Slow downloads speeds
@@ -678,7 +681,7 @@ __________________________________________________
 
 ### Prayer to PyLint
 
-Code, please don't fail again <br>
+Code, don't fail again <br>
 CI in the cloud please take <br>
 pylint be my friend
 
