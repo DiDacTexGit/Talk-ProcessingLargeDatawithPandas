@@ -12,6 +12,8 @@
 ### Link to Repo
 [https://github.com/DiDacTexGit/Talk-ProcessingLargeDatawithPandas](https://github.com/DiDacTexGit/Talk-ProcessingLargeDatawithPandas)
 
+![qr code](./images/talk_qr.png)
+
 -----------------------------------------------------------------------
 ## Motivation
 Data sets can get large quickly.  
